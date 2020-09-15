@@ -1,0 +1,22 @@
+{
+  "name": "ejercicio-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ejercicio.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nmunar/Ejercicio-Node.git"
+  },
+  "author": "Nicolás Munargit ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nmunar/Ejercicio-Node/issues"
+  },
+  "homepage": "https://github.com/nmunar/Ejercicio-Node#readme",
+  "dependencies": {
+    "axios": "^0.20.0"
+  }
+}
