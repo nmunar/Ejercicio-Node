@@ -41,7 +41,7 @@ function rend(file, callback) {
         callback(content);
       });
   });
-};
+}
 
 http
   .createServer(function (req, res) {

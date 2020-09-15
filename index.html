@@ -4,8 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--Script js-->
-    <script src="index.js" async></script>
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -19,18 +17,17 @@
   <body>
     <h1>Listado de {{titulo}}</h1>
     <table class="table-striped">
-        <thead>
-          <tr>
-            <th scope="col">#</th>
-            <th scope="col">ID</th>
-            <th scope="col">Nombre Compañía</th>
-            <th scope="col">Nombre Contacto</th>
-          </tr>
-        </thead>
-        <tbody>
-            {{tabla}}
-        </tbody>
-      </table>
+      <thead>
+        <tr>
+          <th scope="col">ID</th>
+          <th scope="col">Nombre Compañía</th>
+          <th scope="col">Nombre Contacto</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{tabla}}
+      </tbody>
+    </table>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
